@@ -1,0 +1,15 @@
+
+div #nav{
+  font-size:12px;
+  color: #AAAAAA;
+}
+
+div #nav a{
+  color: #AAAAAA;
+  margin-right: 5px;
+}
+
+div #nav-container hr{
+  width: 100%;
+  margin: 17px;
+}
