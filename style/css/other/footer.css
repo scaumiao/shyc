@@ -13,3 +13,9 @@ div #nav-container hr{
   width: 100%;
   margin: 17px;
 }
+#footer{
+  height:80px;
+}
+div #nav-container hr{
+  margin-left:0px;
+}

@@ -1,50 +1,47 @@
-a{
-  font-size: 18px;
-}
+/*导航条css*/
 
-li:hover{background:#C7E1FF !important;}
-
-
-.navbar{
-    margin-bottom: 0px;
-    border-radius: 0px;
-    background: #ffffff;
+.navbar-header {
+    margin-left: 20px;
+    margin-top: 18px;
+    margin-bottom: 10px;
+    /*height: 80px;*/
 }
-.navbar .nav > li > a{
-    color: aqua;
-    background-color: #333;
+#example-navbar-collapse-1 {
+    margin-top: 19px;
 }
-.navbar .nav > li > a:hover {
-    color: aqua;
-    background-color: #282828;
+.navbar .nav-pills > li > a {
+    color: #000000;
+    font-size: 18px;
 }
-.navbar .nav >li >a:active{
-    color: aqua;
-    background-color: #282828;
+.navbar .nav-pills > li > a:hover {
+    background-color: #C7E1FF;
+    color: #111111;
 }
-.navbar .nav >li >a:visited{
-    color: aqua;
-    background-color: #333;
+.navbar .nav-pills .active > a {
+    background-color: #C7E1FF;
 }
-.navbar .nav > li .dropdown:active {
-    color: aqua;
-    background-color: #282828;
-}
-.navbar .nav > li .dropdown-menu {
-    margin: 0;
-}
-.navbar .nav > li:hover .dropdown-menu {
-    display: block;
-}
-
-.navbar-nav>.active>a:hover{
-    color:#555;
-    background-color:#282828}
-
-.navbar-right{
+.navbar-right {
     margin-right: 5px;
 }
-.nav .navbar-nav .navbar-right >li >a:hover {
-    color: aqua;
-    background-color: #282828;
+
+/*高级搜索css*/
+
+#dropdownBtn {
+    background-color: #DDDDDD;
+    color: #FFFFFF;
+}
+
+/*搜索条css*/
+
+#searchBar {
+    width: 94%;
+    margin-top: -4px;
+    margin-left: 30px;
+}
+#searchBar input {
+    height: 42px;
+}
+#searchBar button {
+    width: 62px;
+    height: 42px;
 }

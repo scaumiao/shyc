@@ -5,67 +5,55 @@
         <title>footer</title>
         <link rel="stylesheet" href="../style/css/bootstrap/bootstrap.min.css">
         <link rel="stylesheet" href="../style/css/other/header.css">
+        <link rel="stylesheet" href="../style/css/other/footer.css">
         <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
         <script type="text/javascript" src="../style/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="../style/js/angular.min.js"></script>
-
     </head>
     <body>
 
-        <!--Logo 检索 历史 统计 我的  -->
-        <!-- <div class="container">
-          <div class="row">
-            <div class=" col-md-7" >
-                LOGO
-            </div>
-            <div class=" col-md-5" >
-                检索 历史 统计 我的
-            </div>
+<!-- 导航条，采用栅格布局 -->
+<div class="navbar navbar-default row ">
+    <div class="col-xs-12  col-sm-7 col-md-7 navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse-1">
+            <span class="sr-only">切换导航</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand " href="#">Logo</a>
+    </div>
 
-          </div>
-        </div> -->
-<!-- 导航栏 -->
-        <div class="navbar navbar-default row">
-          <!-- <div class="row"> -->
-          <div class="col-xs-12 col-md-3 col-sm-3 navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse-1">
-                  <span class="sr-only">切换导航</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#">Logo</a>
-          </div>
+    <div class="collapse navbar-collapse col-sm-5 col-md-5 col-lg-5" id="example-navbar-collapse-1">
+        <ul class="nav nav-pills" id="myTabs">
+            <li class="active   ">
+                <a href="#">检索</a>
+            </li>
+            <li class=" ">
+                <a href="#">历史</a>
+            </li>
+            <li class=" ">
+                <a href="#">统计</a>
+            </li>
+            <li class=" ">
+                <a href="#">我的</a>
+            </li>
 
-          <div class="collapse navbar-collapse  col-md-9" id="example-navbar-collapse-1">
+        </ul>
+    </div>
+</div>
 
-              <ul class="nav navbar-nav">
-                  <li class="active col-md-4 "><a href="#">检索</a></li>
-                  <li class="col-md-4"><a href="#">历史</a></li>
-                  <li class="col-md-4"><a href="#">统计</a></li>
-                  <li class="col-md-4"><a href="#">我的</a></li>
-
-              </ul>
-          </div>
-      </div>
-
-
-
-      <!-- 导航栏 -->
-      <!-- <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-          <div class="navbar-header">
-              <a class="navbar-brand" href="/index">Penguin's blog</a>
-          </div>
-          <div>
-              <ul class="nav navbar-nav">
-                  <li><a href="#">相册</a> </li>
-              </ul>
-          </div>
-
-
-      </nav> -->
-
-
-
-    </body>
-</html>
+<!-- 搜索条，左间距30px button62*42 -->
+<div id="searchBar" class="input-group">
+    <input type="text" class="form-control" placeholder="请输入搜索内容">
+    <div class="input-group-btn">
+        <button id="dropdownBtn" type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+            <span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true" ></span>
+        </button>
+        <button type="button" class="btn btn-primary" aria-haspopup="true" aria-expanded="false">
+            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+        </button>
+    </div>
+    <!-- /btn-group -->
+</div>
+<!-- /input-group -->
